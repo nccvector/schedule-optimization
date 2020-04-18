@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Workplan scenario 1",
+    "users": [
+      {
+        "id": 1,
+        "location": {
+          "id": 1
+        },
+        "email": "admin@agyletime.com",
+        "availableDays": [
+          {
+            "from": "2020-01-01T21:00:00Z",
+            "to": "2020-01-02T20:23:59Z"
+          },
+          {
+            "from": "2020-01-03T21:00:00Z",
+            "to": "2020-01-04T20:23:59Z"
+          }
+        ],
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 2323
+          }
+        ],
+        "team": {
+          "id": 12
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "kuyafgsfkjygdsaku"
+          }
+        ]
+      }
+    ],
+    "shiftTemplates": [
+      {
+        "order": 1,
+        "id": "aasda8756",
+        "constraints": [
+          {
+            "location": {
+              "id": 1
+            },
+            "minStaff": 2,
+            "maxStaff": 12
+          }
+        ],
+        "startTime": {
+          "from": "08:00",
+          "to": "08:00"
+        },
+        "paidMinutes": 240,
+        "shiftDurationMinutes": 270,
+        "appliesToDays": [
+          "Monday"
+        ],
+        "appliesToUsers": [
+          {
+            "id": 1
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "id": "vgngdfgbfds",
+        "endTime": {
+          "from": "18:00",
+          "to": "21:00"
+        },
+        "paidMinutes": 240,
+        "shiftDurationMinutes": 270,
+        "appliesToDays": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      }
+    ],
+    "workloads": [
+      {
+        "id": 1234,
+        "requiredRoleId": 2323,
+        "isDefault": true,
+        "rotationPolicy": {
+          "rotationPeriod": {
+            "value": 1,
+            "unit": "weeks"
+          }
+        }
+      }
+    ],
+    "policies": [
+      {
+        "weighting": 100,
+        "type": "ShiftTemplateRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        },
+        "rotationType": "forward"
+      },
+      {
+        "weighting": 80,
+        "type": "StartTimeRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "weighting": 100,
+        "type": "RdoConsecutiveDaysPolicy",
+        "preferConsecutiveDays": true
+      },
+      {
+        "weighting": 100,
+        "type": "RdoMandatoryWorkingDaysPolicy",
+        "mandatoryWorkingDays": [
+          "Monday"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1797 @@
+[
+  {
+    "id": 1,
+    "name": "Workplan scenario 1",
+    "type": "Fill users to contracted hours",
+    "users": [
+      {
+        "id": 1001,
+        "email": "ts1usera@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1002,
+        "email": "ts1userb@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1003,
+        "email": "ts1userc@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1004,
+        "email": "ts1userd@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1005,
+        "email": "ts1usere@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Full Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 2400,
+            "paidMinutesMax": 2400
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1006,
+        "email": "ts1userf@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 1500,
+            "paidMinutesMax": 1500
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 5,
+            "numberOfShiftsMax": 5
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-23T06:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T06:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T06:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T06:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-27T06:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T06:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T06:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T06:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T06:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-03T06:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T07:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T07:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T07:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T07:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-10T07:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T07:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T07:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T07:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T07:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-17T07:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1007,
+        "email": "ts1userg@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 1008,
+        "email": "ts1userh@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 4001,
+        "email": "ts1user.with.other.business.role@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 981
+          },
+          {
+            "id": 937
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 4002,
+        "email": "ts1user.with.no.matching.template@test.com",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T12:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T12:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T13:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T13:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 4003,
+        "email": "ts1user.with.no.matching.availabilities101@test.com",
+        "note": "this user is only available 4 hr (7am-11am) Sydney time. Although this user is assigned to part time template, this user shouldn't have shifts since it doesn't match the shift template rule",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T20:00:00.000Z",
+            "to": "2020-03-23T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T20:00:00.000Z",
+            "to": "2020-03-24T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T20:00:00.000Z",
+            "to": "2020-03-25T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T20:00:00.000Z",
+            "to": "2020-03-26T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T20:00:00.000Z",
+            "to": "2020-03-27T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T20:00:00.000Z",
+            "to": "2020-03-30T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T20:00:00.000Z",
+            "to": "2020-03-31T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T20:00:00.000Z",
+            "to": "2020-04-01T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T20:00:00.000Z",
+            "to": "2020-04-02T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T20:00:00.000Z",
+            "to": "2020-04-03T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T21:00:00.000Z",
+            "to": "2020-04-06T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T21:00:00.000Z",
+            "to": "2020-04-07T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T21:00:00.000Z",
+            "to": "2020-04-08T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T21:00:00.000Z",
+            "to": "2020-04-09T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T21:00:00.000Z",
+            "to": "2020-04-10T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T21:00:00.000Z",
+            "to": "2020-04-13T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T21:00:00.000Z",
+            "to": "2020-04-14T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T21:00:00.000Z",
+            "to": "2020-04-15T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T21:00:00.000Z",
+            "to": "2020-04-16T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T21:00:00.000Z",
+            "to": "2020-04-17T01:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 4004,
+        "email": "ts1user.with.no.matching.availabilities102@test.com",
+        "note": "this user is only available 5hr (6am-11am) Sydney time and 'TS1 Block3 PT' template start anytime between 7am-6pm with shift duration of 5 hrs. So this user should NOT have any shift. If this user is available between 6am-12pm, this user should have shift (7am-12pm)",
+        "location": {
+          "id": 1
+        },
+        "seniority": 6,
+        "businessRoles": [
+          {
+            "id": 23
+          },
+          {
+            "id": 24
+          }
+        ],
+        "team": {
+          "id": 108,
+          "name": "Team for Scenario 1"
+        },
+        "timezone": "Australia/Sydney",
+        "contract": {
+          "employmentCategory": "Part Time",
+          "minimumTimeBetweenShiftsMins": 720,
+          "paidHours": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "paidMinutesMin": 900,
+            "paidMinutesMax": 900
+          },
+          "numberOfShifts": {
+            "type": "Fixed",
+            "period": {
+              "value": 1,
+              "unit": "weeks"
+            },
+            "numberOfShiftsMin": 3,
+            "numberOfShiftsMax": 3
+          },
+          "maxConsecutiveShifts": 7
+        },
+        "shiftHistory": [
+          {
+            "id": "mnhsgdfcjkygwsl",
+            "startTime": "2019-12-30T21:00:00Z",
+            "endTime": "2019-12-30T21:00:00Z",
+            "paidMinutes": 240,
+            "workloadTaskId": 12345,
+            "shiftTemplateId": "usingOldTemplateAndShouldNotBePartOfRotation"
+          }
+        ],
+        "availableDays": [
+          {
+            "from": "2020-03-22T19:00:00.000Z",
+            "to": "2020-03-23T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-23T19:00:00.000Z",
+            "to": "2020-03-24T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-24T19:00:00.000Z",
+            "to": "2020-03-25T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-25T19:00:00.000Z",
+            "to": "2020-03-26T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-26T19:00:00.000Z",
+            "to": "2020-03-27T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-29T19:00:00.000Z",
+            "to": "2020-03-30T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-30T19:00:00.000Z",
+            "to": "2020-03-31T00:00:00.000Z"
+          },
+          {
+            "from": "2020-03-31T19:00:00.000Z",
+            "to": "2020-04-01T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-01T19:00:00.000Z",
+            "to": "2020-04-02T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-02T19:00:00.000Z",
+            "to": "2020-04-03T00:00:00.000Z"
+          },
+          {
+            "from": "2020-04-05T20:00:00.000Z",
+            "to": "2020-04-06T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-06T20:00:00.000Z",
+            "to": "2020-04-07T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-07T20:00:00.000Z",
+            "to": "2020-04-08T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-08T20:00:00.000Z",
+            "to": "2020-04-09T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-09T20:00:00.000Z",
+            "to": "2020-04-10T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-12T20:00:00.000Z",
+            "to": "2020-04-13T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-13T20:00:00.000Z",
+            "to": "2020-04-14T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-14T20:00:00.000Z",
+            "to": "2020-04-15T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-15T20:00:00.000Z",
+            "to": "2020-04-16T01:00:00.000Z"
+          },
+          {
+            "from": "2020-04-16T20:00:00.000Z",
+            "to": "2020-04-17T01:00:00.000Z"
+          }
+        ]
+      }
+    ],
+    "shiftTemplates": [
+      {
+        "order": 3,
+        "id": "5caad46367b070001a4aefa3",
+        "name": "TS1 Block3 PT",
+        "constraints": [
+        ],
+        "startTime": {
+          "from": "07:00",
+          "to": "18:00"
+        },
+        "paidMinutes": 300,
+        "shiftDurationMinutes": 300,
+        "appliesToDays": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "appliesToUsers": [
+          {
+            "id": 1006
+          },
+          {
+            "id": 1007
+          },
+          {
+            "id": 1008
+          },
+          {
+            "id": 4001
+          },
+          {
+            "id": 4003
+          },
+          {
+            "id": 4004
+          }
+        ]
+      },
+      {
+        "order": 1,
+        "id": "5caad46367b070001a4aeff1",
+        "name": "TS1 Block1 FT",
+        "constraints": [
+        ],
+        "startTime": {
+          "from": "07:00",
+          "to": "08:00"
+        },
+        "paidMinutes": 480,
+        "shiftDurationMinutes": 480,
+        "appliesToDays": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "appliesToUsers": [
+          {
+            "id": 1001
+          },
+          {
+            "id": 1002
+          },
+          {
+            "id": 1003
+          },
+          {
+            "id": 1004
+          },
+          {
+            "id": 1005
+          }
+        ]
+      },
+      {
+        "order": 2,
+        "id": "5caad46367b070001a4aefb2",
+        "name": "TS1 Block2 FT",
+        "constraints": [
+        ],
+        "startTime": {
+          "from": "15:00",
+          "to": "15:00"
+        },
+        "paidMinutes": 480,
+        "shiftDurationMinutes": 480,
+        "appliesToDays": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "appliesToUsers": [
+          {
+            "id": 1001
+          },
+          {
+            "id": 1002
+          },
+          {
+            "id": 1003
+          },
+          {
+            "id": 1004
+          },
+          {
+            "id": 1005
+          }
+        ]
+      }
+    ],
+    "workloads": [
+      {
+        "id": 1,
+        "requiredBusinessRoleId": 23,
+        "isDefault": true,
+        "rotationPolicy": {
+          "rotationPeriod": {
+            "value": 1,
+            "unit": "weeks"
+          }
+        }
+      }
+    ],
+    "policies": [
+      {
+        "weighting": 100,
+        "type": "ShiftTemplateRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        },
+        "rotationType": "forward"
+      },
+      {
+        "weighting": 80,
+        "type": "StartTimeRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      }
+    ]
+  }
+]

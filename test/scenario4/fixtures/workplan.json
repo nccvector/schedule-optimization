@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Single workplan",
+    "users": [
+      {
+
+      }
+    ],
+    "shiftTemplates": [
+      {
+        "order": 1,
+        "id": "aasda8756",
+        "minStaff": 2,
+        "maxStaff": 12,
+        "timeFrom": "08:00"
+      },
+      {
+        "order": 2,
+        "id": "dsgdfsggds"
+      },
+      {
+        "order": 3,
+        "id": "fdbgfngf"
+      }
+    ],
+    "workloads": [
+      {
+        "id": 1234,
+        "requiredRoleId": 2323,
+        "isDefault": true,
+        "rotationPolicy": {
+          "rotationPeriod": {
+            "value": 1,
+            "unit": "weeks"
+          }
+        }
+      }
+    ],
+    "policies": [
+      {
+        "weighting": 100,
+        "type": "ShiftTemplateRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        },
+        "rotationType": "forward"
+      },
+      {
+        "weighting": 80,
+        "type": "StartTimeRotationPolicy",
+        "rotationPeriod": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "weighting": 100,
+        "type": "RdoConsecutiveDaysPolicy",
+        "preferConsecutiveDays": true
+      },
+      {
+        "weighting": 100,
+        "type": "RdoMandatoryWorkingDaysPolicy",
+        "mandatoryWorkingDays": [
+          "Monday"
+        ]
+      }
+    ]
+  }
+]

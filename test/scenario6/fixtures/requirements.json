@@ -1,0 +1,35 @@
+{
+  "interval": "15 minutes",
+  "requirements": [
+    {
+      "startTime": "2020-03-15T13:00:00.000Z",
+      "workloads": [
+        {
+          "workloadId": 5,
+          "workloadName": "Comms Chat",
+          "requiredStaff": 20
+        },
+        {
+          "workloadId": 1,
+          "workloadName": "Comms Phone",
+          "requiredStaff": 13
+        }
+      ]
+    },
+    {
+      "startTime": "2020-03-15T13:15:00.000Z",
+      "workloads": [
+        {
+          "workloadId": 5,
+          "workloadName": "Comms Chat",
+          "requiredStaff": 20
+        },
+        {
+          "workloadId": 1,
+          "workloadName": "Comms Phone",
+          "requiredStaff": 13
+        }
+      ]
+    }
+  ]
+}
